@@ -1,0 +1,195 @@
+/* ini ga tau mai diisi apa */
+
+
+
+.container {
+  margin-top: 50px;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Mengatur font */
+  background-color: #f8f9fa;
+  /* Warna latar belakang */
+  color: #333;
+  /* Warna teks */
+}
+
+h2 {
+  color: #007bff;
+  /* Warna judul */
+  justify-content: right;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  /* Warna tombol */
+  border-color: #007bff;
+  /* Warna border tombol */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  /* Warna tombol saat dihover */
+  border-color: #0056b3;
+  /* Warna border tombol saat dihover */
+}
+
+.form-control {
+  border-color: #ddd;
+  /* Warna border input */
+}
+/*table*/ 
+.table-container {
+  width: 100%;
+  height: 550px;
+  /* Ketinggian tetap div */
+  overflow-y: auto;
+  /* Mengizinkan scroll vertikal jika konten lebih panjang dari div */
+  border: 1px solid #ddd;
+  /* Untuk efek visual */
+}
+
+.fixed-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fixed-table th,
+.fixed-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.fixed-table th {
+  background-color: #007bff;
+  position: sticky;
+  top: 0;
+  /* Header akan tetap di bagian atas saat digulir */
+  z-index: 1;
+  /* Untuk memastikan header tetap di atas konten */
+  color: white;
+}
+
+
+.fixed-table tbody tr:hover {
+  background-color: #f2f2f2;
+  /* Warna latar belakang baris saat dihover */
+}
+/*form tambah data*/
+/* styles.css */
+
+.form-card {
+  max-width: 400px;
+  /* Lebar maksimum kartu formulir */
+  margin: 0 auto;
+  /* Posisi kartu formulir di tengah */
+  padding: 20px;
+  /* Padding untuk ruang di sekitar formulir */
+  background-color: #fff;
+  /* Warna latar belakang kartu formulir */
+  border-radius: 10px;
+  /* Sudut bulat untuk kartu formulir */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* Efek bayangan kartu formulir */
+}
+
+.form-container {
+  margin-top: 20px;
+  /* Spasi atas kontainer formulir */
+}
+
+.form-heading {
+  font-size: 24px;
+  /* Ukuran font judul */
+  margin-bottom: 20px;
+  /* Spasi bawah judul */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  /* Spasi bawah setiap grup form */
+}
+
+label {
+  font-weight: bold;
+  /* Membuat label tebal */
+}
+
+.form-control {
+  width: 100%;
+  /* Lebar input field */
+  padding: 10px;
+  /* Padding untuk ruang di dalam input field */
+  border: 1px solid #ccc;
+  /* Border input field */
+  border-radius: 5px;
+  /* Sudut bulat input field */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  /* Warna tombol */
+  border-color: #007bff;
+  /* Warna border tombol */
+  color: #fff;
+  /* Warna teks tombol */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  /* Warna tombol saat dihover */
+  border-color: #0056b3;
+  /* Warna border tombol saat dihover */
+}
+/* Style untuk tombol close */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: red;
+  /* Warna merah untuk tombol close */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Hover effect pada tombol close */
+.close:hover {
+  color: darkred;
+  /* Warna lebih gelap saat dihover */
+}
+/* Gaya untuk scrollbar vertikal */
+.table-container {
+  overflow-y: auto;
+  max-height: 400px; /* Atur tinggi maksimum sesuai kebutuhan Anda */
+}
+
+/* Gaya untuk scrollbar horizontal */
+.fixed-table {
+  overflow-x: auto;
+  white-space: nowrap; /* Agar konten tabel tidak pindah ke baris baru */
+}
+
+/* Gaya untuk thumb scrollbar */
+/* Ubah warna dan ukuran sesuai preferensi Anda */
+.table-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Warna thumb scrollbar */
+  border-radius: 5px; /* Bentuk sudut thumb scrollbar */
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Warna thumb scrollbar saat dihover */
+}
+
+/* Gaya untuk track scrollbar */
+/* Ubah warna sesuai preferensi Anda */
+.table-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Warna track scrollbar */
+}
